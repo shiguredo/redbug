@@ -1,7 +1,8 @@
 {application,
  redbug,
  [{description, "Erlang Tracing Debugger"},
-  {vsn, "2.0.7"},
+  {pkg_name, shiguredo_redbug},
+  {vsn, "2022.2.0"},
   {applications, [kernel, stdlib, runtime_tools]},
   {licenses, ["MIT"]},
-  {links, [{"Github", "https://github.com/massemanet/redbug"}]}]}.
+  {links, [{"Github", "https://github.com/shiguredo/redbug"}]}]}.
